@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <title></title>
+</head>
+
+<body>
+    <div id="app">
+      {{reverseMessage}}
+    <transition name = "fade">
+      <span @click="tester">{{count}}</span>
+    </transition>
+    <div id="demo">
+      <button v-on:click ="show = !show">
+        Toggle
+      </button>
+      <tran
+      <transition name="fade">
+        <p v-if="show">hello</p>
+      </transition>
+    </div>
+      <ul>
+        <li v-for="item in listeditems">{{item}}</li>
+      </ul>
+    </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue" charset="utf-8"></script>
+  <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>

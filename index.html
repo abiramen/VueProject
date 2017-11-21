@@ -1,0 +1,54 @@
+<!doctype html>
+<html>q
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <link href= 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <title>Test</title>
+</head>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-toolbar color = "deep-purple" app>
+       <v-toolbar-title class = "white--text">Vote</v-toolbar-title>
+      </v-toolbar>
+      <v-content>
+        <v-card class = "ma-2">
+          <v-card-media height = "100px" src = "static/img/vcardgrad.png"></v-card-media>
+          <v-card-title primary-title>
+            <h3 class = "headline mb-0">Vote</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </v-card-title>
+          <v-card-actions>
+            <v-btn @click="" flat color =  "deep-purple lighten-2">Vote</v-btn>
+            <v-btn @click="" flat color =  "deep-purple lighten-2">Practise voting</v-btn>
+          </v-card-actions>
+        </v-card>
+        <v-card class = "ma-2">
+          <v-card-title primary-title>
+            <h4 class = "headline mb-0">Enter an ID</h4>
+          </v-card-title>
+          <v-card-text class = "py-0">
+            <v-text-field color = "deep-purple lighten-2" name="input-1" label="Voter ID" id="testing"></v-text-field>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn @click="" outline color =  "deep-purple lighten-2">Select</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-content>
+      <v-footer app fixed color = "deep-purple lighten-3"></v-footer>
+    </v-app>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue" charset="utf-8"></script>
+  <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js" charset="utf-8"></script>
+  <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>
